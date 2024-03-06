@@ -284,14 +284,14 @@
         <h2 class="section__title">Recent works</h2>
 
         <div class="work__filters">
-          <span class="work__item">All</span>
-          <span class="work__item">Web</span>
-          <span class="work__item">Movil</span>
-          <span class="work__item">Design</span>
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".web">Web</span>
+          <span class="work__item" data-filter=".movil">Movil</span>
+          <span class="work__item" data-filter=".design">Design</span>
         </div>
 
         <div class="work__container container grid">
-          <div class="work__card">
+          <div class="work__card mix web">
               <img src="assets/img/work1.jpg" alt="" class="work__img">
 
               <h3 class="work__title"></h3>
@@ -301,7 +301,7 @@
               </a>
           </div>
 
-          <div class="work__card">
+          <div class="work__card mix movil">
             <img src="assets/img/work1.jpg" alt="" class="work__img">
 
             <h3 class="work__title"></h3>
@@ -311,7 +311,7 @@
             </a>
           </div>
 
-          <div class="work__card">
+          <div class="work__card mix design">
             <img src="assets/img/work1.jpg" alt="" class="work__img">
 
             <h3 class="work__title"></h3>
@@ -321,7 +321,7 @@
             </a>
           </div>
 
-          <div class="work__card">
+          <div class="work__card mix web">
             <img src="assets/img/work1.jpg" alt="" class="work__img">
 
             <h3 class="work__title"></h3>
@@ -331,7 +331,7 @@
             </a>
           </div>
 
-          <div class="work__card">
+          <div class="work__card mix movil">
             <img src="assets/img/work1.jpg" alt="" class="work__img">
 
             <h3 class="work__title"></h3>
@@ -343,11 +343,10 @@
         </div>
       </section>
 
-      <!--=============== TESTIMONIALS ===============-->
-      <section class="testimonial section"></section>
-
       <!--=============== CONTACT ===============-->
-      <section class="contact section" id="contact"></section>
+      <section class="contact section" id="contact">
+        
+      </section>
     </main>
 
     <!--=============== FOOTER ===============-->
@@ -360,7 +359,7 @@
     <script src=""></script>
 
     <!--=============== MIXITUP FILTER ===============-->
-    <script src=""></script>
+    <script src="assets/js/mixitup.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
