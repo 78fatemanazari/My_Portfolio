@@ -26,8 +26,6 @@ function activeWork(){
 }
 
 linkWork.forEach(L=> L.addEventListener('click', activeWork))
-/*=============== SWIPER TESTIMONIAL ===============*/
-
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
