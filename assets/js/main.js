@@ -68,7 +68,6 @@ const sr = ScrollReveal({
   delay: 400,
   //reset: true
 })
-=======
 
 sr.reveal('.home__data')
 sr.reveal('.home__handle', {delay: 700})
