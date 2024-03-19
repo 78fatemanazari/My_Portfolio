@@ -20,16 +20,11 @@ const mixerPortfolio = mixitup('.work__container', {
 /* Link active work */
 const linkWork = document.querySelectorAll('.work__item');
 
-function activeWork() {
-  linework.forEach((L) => L.classList.remove('active-work'));
-  this.classList.add('active-work');
+function activeWork(){
+  linkWork.forEach(L=> L.classList.remove('active-work'))
+  this.classList.add('active-work')
 }
 
-linkWork.forEach((L) => L.addEventListener('click', activeWork));
-/*= ============== SWIPER TESTIMONIAL =============== */
+linkWork.forEach(L=> L.addEventListener('click', activeWork))
 
-/*= ============== SCROLL SECTIONS ACTIVE LINK =============== */
 
-/*= ============== LIGHT DARK THEME =============== */
-
-/*= ============== SCROLL REVEAL ANIMATION =============== */
