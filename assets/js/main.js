@@ -21,7 +21,7 @@ let mixerPortfolio = mixitup('.work__container', {
 const linkWork = document.querySelectorAll('.work__item')
 
 function activeWork(){
-  linework.forEach(L=> L.classList.remove('active-work'))
+  linkWork.forEach(L=> L.classList.remove('active-work'))
   this.classList.add('active-work')
 }
 
